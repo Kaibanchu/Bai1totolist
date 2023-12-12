@@ -1,0 +1,26 @@
+.todoitems{
+    display: flex;
+    direction-flow: column;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;    
+}
+.todoitems-container {
+    display: flex;
+  
+}
+.todoitems-text{
+    padding-left: 16px;
+    color: #404040;
+    font-size: 30px;
+    padding-top: 2px;
+    
+}
+.todoitems-cross{
+    cursor: pointer;
+    padding-right: 25px;
+    padding-top: 2px;
+}
+.line-through{
+    text-decoration: line-through solid #ADADAD 3px;
+}
